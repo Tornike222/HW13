@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9ED96BF6-FAC9-4DA7-86C2-8EDE62CA1EA3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD09BB2C-759C-4A40-AABD-6A9E76074367"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HW13 Auto Layout Engine/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "DD09BB2C-759C-4A40-AABD-6A9E76074367 - f27078bb86c73e08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW13_Auto_Layout_Engine.ViewController.coffeImage.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "HW13 Auto Layout Engine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/telkanishvili/Desktop/TBC%20x%20USAID/HW13%20Auto%20Layout%20Engine/HW13%20Auto%20Layout%20Engine/HW13%20Auto%20Layout%20Engine/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "DD09BB2C-759C-4A40-AABD-6A9E76074367 - ca7818565d814204"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW13_Auto_Layout_Engine.ViewController.coffeImage.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "HW13 Auto Layout Engine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/telkanishvili/Desktop/TBC%20x%20USAID/HW13%20Auto%20Layout%20Engine/HW13%20Auto%20Layout%20Engine/HW13%20Auto%20Layout%20Engine/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "DD09BB2C-759C-4A40-AABD-6A9E76074367 - a35e7d5d13b29982"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW13_Auto_Layout_Engine.ViewController.coffeImage.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "HW13 Auto Layout Engine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/telkanishvili/Desktop/TBC%20x%20USAID/HW13%20Auto%20Layout%20Engine/HW13%20Auto%20Layout%20Engine/HW13%20Auto%20Layout%20Engine/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "DD09BB2C-759C-4A40-AABD-6A9E76074367 - c35095e40861ddb6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW13_Auto_Layout_Engine.ViewController.coffeImage.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "HW13 Auto Layout Engine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/telkanishvili/Desktop/TBC%20x%20USAID/HW13%20Auto%20Layout%20Engine/HW13%20Auto%20Layout%20Engine/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "DD09BB2C-759C-4A40-AABD-6A9E76074367 - 578ba992fb170d4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW13_Auto_Layout_Engine.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HW13_Auto_Layout_Engine.ViewController"
+                  moduleName = "HW13 Auto Layout Engine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/telkanishvili/Desktop/TBC%20x%20USAID/HW13%20Auto%20Layout%20Engine/HW13%20Auto%20Layout%20Engine/HW13%20Auto%20Layout%20Engine/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "DD09BB2C-759C-4A40-AABD-6A9E76074367 - e388c7eb67ba38b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW13_Auto_Layout_Engine.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HW13_Auto_Layout_Engine.ViewController&gt;"
+                  moduleName = "HW13 Auto Layout Engine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/telkanishvili/Desktop/TBC%20x%20USAID/HW13%20Auto%20Layout%20Engine/HW13%20Auto%20Layout%20Engine/HW13%20Auto%20Layout%20Engine/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
