@@ -7,37 +7,25 @@
 
 import UIKit
 
-struct Coffe {
-    let productName: String
-    var reviewCount: Int
-    var smallCoffeePrice: Double
-    var mediumCoffeePrice: Double {
-        get {
-            return smallCoffeePrice + 1.14
-        }
-    }
-    var bigCoffeePrice: Double {
-        get {
-            return smallCoffeePrice + 3.25
-        }
-    }
-}
-
+//MARK: Object
 var capuccino = Coffe(productName: "კაპუჩინო", reviewCount: 230, smallCoffeePrice: 3.40)
 
 
 class ViewController: UIViewController {
 
+    //MARK: Outlets
     @IBOutlet weak var bottomBuyView: UIView!
     @IBOutlet weak var coffeImage: UIImageView!
     @IBOutlet weak var favoriteButton: UIButton!
     @IBOutlet weak var reviewCount: UILabel!
-    @IBOutlet weak var thirdOption: UIButton!
-    @IBOutlet weak var secondOption: UIButton!
-    @IBOutlet weak var firstOption: UIButton!
+    @IBOutlet weak var bigCoffee: UIButton!
+    @IBOutlet weak var mediumCoffee: UIButton!
+    @IBOutlet weak var smallCoffee: UIButton!
     @IBOutlet weak var costOfCoffee: UILabel!
     var isOn = false
     
+    //MARK: Override
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -48,27 +36,29 @@ class ViewController: UIViewController {
         reviewCount.text = "(\(capuccino.reviewCount))"
     }
     
-    @IBAction func firstOptionAction(_ sender: UIButton) {
-        activate(option: firstOption)
-        deactivateActivated(option: secondOption)
-        deactivateActivated(option: thirdOption)
+    //MARK: Actions
+    @IBAction func chooseSmallCoffee(_ sender: UIButton) {
+        activate(option: smallCoffee)
+        deactivateActivated(option: mediumCoffee)
+        deactivateActivated(option: bigCoffee)
         costOfCoffee.text = "₾ \(capuccino.smallCoffeePrice)"
     }
     
-    @IBAction func secondOptionAction(_ sender: UIButton) {
-        activate(option: secondOption)
-        deactivateActivated(option: firstOption)
-        deactivateActivated(option: thirdOption)
+    @IBAction func chooseMediumCoffee(_ sender: UIButton) {
+        activate(option: mediumCoffee)
+        deactivateActivated(option: smallCoffee)
+        deactivateActivated(option: bigCoffee)
         costOfCoffee.text = "₾ \(capuccino.mediumCoffeePrice)"
     }
     
-    @IBAction func thirdOptionAction(_ sender: Any) {
-        activate(option: thirdOption)
-        deactivateActivated(option: secondOption)
-        deactivateActivated(option: firstOption)
+    @IBAction func chooseBigCoffee(_ sender: Any) {
+        activate(option: bigCoffee)
+        deactivateActivated(option: mediumCoffee)
+        deactivateActivated(option: smallCoffee)
         costOfCoffee.text = "₾ \(capuccino.bigCoffeePrice)"
 
     }
+    
     @IBAction func favoriteButtonAction(_ sender: UIButton) {
         if !isOn {
             let imageIcon = UIImage(systemName: "heart.fill")?.withTintColor(.red, renderingMode: .alwaysOriginal)
@@ -84,7 +74,7 @@ class ViewController: UIViewController {
         }
     }
     
-    
+    //MARK: Methods
     func activate(option: UIButton){
         option.layer.backgroundColor = UIColor(red: 253.0/255.0, green: 245.0/255.0, blue: 239.0/255.0, alpha: 1.0).cgColor
         option.layer.opacity = 1.5
@@ -99,9 +89,7 @@ class ViewController: UIViewController {
         option.configuration?.baseForegroundColor = .darkText
         option.layer.backgroundColor = UIColor.white.cgColor
     }
-    
-    
-    
+
 
 }
 

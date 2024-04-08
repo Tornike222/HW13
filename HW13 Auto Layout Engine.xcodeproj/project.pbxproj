@@ -13,6 +13,7 @@
 		B216DCC52BBFC7D6002D3F59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B216DCC32BBFC7D6002D3F59 /* Main.storyboard */; };
 		B216DCC72BBFC7DA002D3F59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B216DCC62BBFC7DA002D3F59 /* Assets.xcassets */; };
 		B216DCCA2BBFC7DA002D3F59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B216DCC82BBFC7DA002D3F59 /* LaunchScreen.storyboard */; };
+		B21F971B2BC3B294001519E6 /* CoffeStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21F971A2BC3B294001519E6 /* CoffeStructs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B216DCC62BBFC7DA002D3F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B216DCC92BBFC7DA002D3F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B216DCCB2BBFC7DA002D3F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B21F971A2BC3B294001519E6 /* CoffeStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeStructs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				B216DCBD2BBFC7D6002D3F59 /* AppDelegate.swift */,
 				B216DCBF2BBFC7D6002D3F59 /* SceneDelegate.swift */,
+				B21F971A2BC3B294001519E6 /* CoffeStructs.swift */,
 				B216DCC12BBFC7D6002D3F59 /* ViewController.swift */,
 				B216DCC32BBFC7D6002D3F59 /* Main.storyboard */,
 				B216DCC62BBFC7DA002D3F59 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B21F971B2BC3B294001519E6 /* CoffeStructs.swift in Sources */,
 				B216DCC22BBFC7D6002D3F59 /* ViewController.swift in Sources */,
 				B216DCBE2BBFC7D6002D3F59 /* AppDelegate.swift in Sources */,
 				B216DCC02BBFC7D6002D3F59 /* SceneDelegate.swift in Sources */,
